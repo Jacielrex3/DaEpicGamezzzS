@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <style>
+    /* Add your CSS styles for the Snake game here */
+  </style>
+</head>
+<body>
+  <h1>Snake Game</h1>
+  <!-- Place your Snake game code here -->
+  <canvas id="snakeCanvas" width="400" height="400"></canvas>
+
+  <script>
+    // Add your JavaScript code for the Snake game here
+  </script>
+</body>
+</html>

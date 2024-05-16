@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<center>
+<head>
+    <img src="daepicgamesiconnobackgroundshort.png" style="width: 667px;height: 425px;"
+    <i><h2 align="center"><span style="color:#FF0505">D</span><span style="color:#FF2E05">o</span><span style="color:#FF5605">i</span><span style="color:#FF7F05">n</span><span style="color:#FFA705">g</span> <span style="color:#FFD005">G</span><span style="color:#FFF805">r</span><span style="color:#DDFF05">e</span><span style="color:#B5FF05">a</span><span style="color:#8CFF05">t</span> <span style="color:#64FF05">G</span><span style="color:#3BFF05">a</span><span style="color:#13FF05">m</span><span style="color:#05FF20">e</span><span style="color:#05FF49">s</span><span style="color:#05FF71">,</span> <span style="color:#05FF9A">D</span><span style="color:#05FFC2">o</span><span style="color:#05FFEB">i</span><span style="color:#05EBFF">n</span><span style="color:#05C2FF">g</span> <span style="color:#059AFF">G</span><span style="color:#0571FF">r</span><span style="color:#0549FF">e</span><span style="color:#0520FF">a</span><span style="color:#1305FF">t</span> <span style="color:#3B05FF">E</span><span style="color:#6405FF">x</span><span style="color:#8C05FF">p</span><span style="color:#B505FF">e</span><span style="color:#DD05FF">r</span><span style="color:#FF05F8">i</span><span style="color:#FF05D0">e</span><span style="color:#FF05A7">n</span><span style="color:#FF057F">c</span><span style="color:#FF0556">e</span><span style="color:#FF052E">s</span></h2></i>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DaEpicGamez</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #000000;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: #0336aeee;
+    }
+    .game-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .game {
+        width: 200px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .game:hover {
+        transform: translateY(-5px);
+    }
+    .game h2 {
+        text-align: center;
+        color: #555;
+    }
+    .game p {
+        margin-bottom: 10px;
+        color: #777;
+    }
+    .play-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .play-btn:hover {
+        background-color: #0056b3;
+    }
+
+</style>
+</head>
+<body>
+<h1>Da Epic Gamez</h1>
+<div class="game-container">
+    <div class="game">
+        <h2>Snake</h2>
+        <p>UN Juego clasico donde tienes que comer y creceras hasta quedarte sin espacio!</p>
+        <button class="play-btn" onclick="startSnakeGame()">Play</button>
+    </div>
+    <div class="game">
+        <h2>Tetris</h2>
+        <p>Alinea las figuras para no quedarte sin espacio!</p>
+        <button class="play-btn" onclick="startTetrisGame()">Play</button>
+    </div>
+    <div class="game">
+        <h2>Gato/3 en raya</h2>
+        <p>Con un marco de 3x3 tienes que ganarle a tu oponente haciendo un 3 en raya!</p>
+        <button class="play-btn" onclick="startTicTacToeGame()">Play</button>
+    </div>
+    <div class="game">
+        <h2>Pong</h2>
+        <p>Un juego clasico, bastante clasico. </p>
+        <button class="play-btn" onclick="startMemoryGame()">Play</button>
+    </div>
+    <div class="game">
+        <h2>Piedra, Papel y Tijera</h2>
+        <p>Gana usando la piedra papel o la tijera contra tu oponente</p>
+        <button class="play-btn" onclick="startRockPaperScissorsGame()">Play</button>
+    </div>
+</div>
+
+<!-- JavaScript for the games -->
+<script>
+    function startSnakeGame() {
+        window.location.href = "snake.html";
+    }
+
+    function startTetrisGame() {
+        window.location.href = "tetris_game.html";
+    }
+
+    function startTicTacToeGame() {
+        window.location.href = "tic_tac_toe_game.html";
+    }
+
+    function startMemoryGame() {
+        window.location.href = "pong_game.html";
+    }
+
+    function startRockPaperScissorsGame() {
+        window.location.href = "rock_paper_scissors_game.html";
+    }
+</script>
+
+</body>
+</html>
+</center>
